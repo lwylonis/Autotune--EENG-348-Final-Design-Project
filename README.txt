@@ -12,7 +12,6 @@ Setup & Wiring
 Audio from a microphone preamp or line‐level source feeds the Arduino’s analog input. The digital I/O pins form an 8-bit DAC that drives your speaker or amplifier. The three LEDs share PWM pins and common power/ground rails. The encoder’s two signals and built-in button use pin-change interrupts, and a simple toggle switch on an analog pin flips between modes. All you need is common 5 V, ground, and the wiring diagram in the comments to get started.
 
 How to Build
-
 Copy sketch into a single folder, wire circuit according to schematic, and run with your choice of audio input!
 
 What Happens Under the Hood
