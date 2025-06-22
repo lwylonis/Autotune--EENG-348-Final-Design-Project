@@ -1,4 +1,4 @@
-Pitch Modification/Autotune
+Pitch Modification/Autotune (Originally Developed May, 2024)
 
 Authors: Leo Wylonis and Izzy Farrow
 
@@ -18,3 +18,5 @@ What Happens Under the Hood
 – Continuous Sampling: The ADC fires an interrupt at ~38 kHz, but only the top 8 bits are used to sample at ~19 kHz.
 – Pitch Detection: A time-domain based difference function runs over 512 samples to find the signal’s period.
 – Speed Adjustment: In manual mode, encoder turns adjust a speed multiplier. In autotune mode, the detected frequency is compared to a semitone scale, and the speed multiplier is incrementally changed until the LEDs indicate on-pitch.
+
+EDIT: June 22- Added speaker amplifier schematic/pcb files for multipurpose variable gain audio amplifier with clipping detector circuit.
